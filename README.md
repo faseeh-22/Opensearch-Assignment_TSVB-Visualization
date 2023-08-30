@@ -1,62 +1,68 @@
 # Assignment:
 
-	Create  new TSVB visualizations which are grouped by following:
+Create  new TSVB visualizations which are grouped by following:
 	
- 1.cip
+1.cip
 	
- 2.country
+2.country
 	
- 3.status_code
+3.status_code
 	
- 4.method
+4.method
 	
- 5.http_uri
+5.http_uri
 
- To complete the assignment, follow the below steps:
+To complete the assignment, follow the below steps:
 
 
 
 ## Step 1. Accessing OpenSearch:
 
-	Open your preferred web browser and navigate to the OpenSearch URL.
+Open your preferred web browser and navigate to the OpenSearch URL.
     
     
-
 	
 ## Step 2. Login to OpenSearch:
 
-	Enter your credentials (username and password) to login to the OpenSearch cluster.
+Enter your credentials (username and password) to login to the OpenSearch cluster.
 
 
 
 ## Step 3. Navigate to TSVB:
 
-	In the OpenSearch dashboard, click on the "Visualize" section.
+In the OpenSearch dashboard, click on the "Visualize" section.
 
 
 
 ## Step 4. Creating New TSVB Visualization:
 
-	Click on the "Create visualization" button, select TSVB, to start creating a new TSVB visualization.
+Click on the "Create visualization" button, select TSVB, to start creating a new TSVB visualization.
 
 
 	
 ## Step 5. Choose Data Source:
 
-	Select the appropriate index pattern that contains the data you want to visualize. This should match the data you want to group by the specified fields.
+Select the appropriate index pattern that contains the data you want to visualize. This should match the data you want to group by the specified fields.
     
 
 
 ## Step 6. Configure TSVB Visualization:
 
-	1.Under the "Metrics" section, See "Aggregation" field.
-	2.Choose the suitable "Aggregation"you want to visualize (e.g."Count").
-	3.In "Group by" options, select "Terms" and in "By" field select "geoip.country_name.keyword" option.
-	4.In "Order By" field, select "Count".
-	5.In "Top" field, input numeric values according to your requirement (e.g 10).
-	6.Now click on "Panel Options" section, in "Time Field" select "request_creation_time" option.
-	7.In "Index Pattern" field, type "tap*" or any required source.
-	8.In "Interval" field, type "1h".
+1.Under the "Metrics" section, See "Aggregation" field.
+
+2.Choose the suitable "Aggregation"you want to visualize (e.g."Count").
+
+3.In "Group by" options, select "Terms" and in "By" field select "geoip.country_name.keyword" option.
+
+4.In "Order By" field, select "Count".
+
+5.In "Top" field, input numeric values according to your requirement (e.g 10).
+
+6.Now click on "Panel Options" section, in "Time Field" select "request_creation_time" option.
+
+7.In "Index Pattern" field, type "tap*" or any required source.
+
+8.In "Interval" field, type "1h".
     
     
     
@@ -66,9 +72,9 @@
     
 ## Step 7. Save Visualization:
 
-	1.Once you are satisfied with the visualization, click on the "Save" button.
-	2.Provide a meaningful name and description for the visualization.
-	3.Choose the appropriate dashboard and add this visualization in it.
+1.Once you are satisfied with the visualization, click on the "Save" button.
+2.Provide a meaningful name and description for the visualization.
+3.Choose the appropriate dashboard and add this visualization in it.
     
     
     

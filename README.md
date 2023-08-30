@@ -73,7 +73,9 @@ Select the appropriate index pattern that contains the data you want to visualiz
 ## Step 7. Save Visualization:
 
 1.Once you are satisfied with the visualization, click on the "Save" button.
+
 2.Provide a meaningful name and description for the visualization.
+
 3.Choose the appropriate dashboard and add this visualization in it.
     
     
